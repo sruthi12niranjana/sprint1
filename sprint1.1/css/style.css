@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.slider-cntr h2 {
+  color: rgb(99, 29, 64);
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -40px;
+  border: 2px solid rgb(151, 78, 115);
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(151, 78, 115);
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+}
+#header {
+  background: url(./bgg.jpg) no-repeat;
+  background-size: cover;
+  height: 10vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.carousel-inner h1 {
+  font-size: 60px;
+  font-family: var(--lg-font);
+  font-family: "Fasthand", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.carousel-item .btn {
+  border-color: rgb(54, 6, 30) !important;
+}
+.carousel-item .btn:hover {
+  border-color: var(--pink) !important;
+}
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(54, 6, 30);
+}
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(151, 78, 115);
+  color: antiquewhite;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(151, 78, 115);
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.99);
+  -webkit-box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.99);
+  transition: 0.5s;
+}
+.service h2 {
+  color: rgb(146, 11, 70);
+}
+.service h3 {
+  color: rgb(146, 11, 70);
+}
+
+.bg-primary {
+  background-color: var(--pink) !important;
+}
+.btn:not(.nav-btns button) {
+  background-color: #fff;
+  color: rgb(17, 16, 16);
+  padding: 10px 10px;
+  margin-bottom: 10px 10px;
+  border-radius: 25px;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+.btn2 {
+  height: 47px;
+  width: 100px;
+  background: white;
+  margin-left: -20px;
+  border: 2px solid white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.parallax-window {
+  min-height: 530px;
+  background: transparent;
+}
+
+.navbar-brand {
+  font-family: "Fasthand", cursive;
+  font-family: "Kolker Brush", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: small;
+  width: infinite;
+  height: 55px;
+}
+
+#sec-8 .carousel-item img {
+  width: 180px !important;
+}
+.parallax {
+  background: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url(./bg\ img.jfif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome {
+  padding: 100px 0 150px 0;
+}
+
+.welcome h2 {
+  color: rgb(151, 78, 115);
+}
+.card {
+  border: none;
+  outline: none;
+  box-shadow: 12px 12px 2px 1px rgba(225, 225, 234, 0.2);
+}
+.card p {
+  color: gray;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: lightgrey;
+  color: black;
+  padding: 12px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.carousel :hover .circle {
+  background-color: rgb(146, 11, 70);
+  color: white;
+  transition: 0.5s;
+}
+.footer-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Media queries */
+@media only screen and (max-width: 772px) {
+  #header {
+    background: url(./bgg.jpg) no-repeat;
+    background-size: cover;
+    height: 5vh;
+    background-position: 50% 50%;
+    width: 100%;
+    font-family: "Kolker Brush", cursive;
+    font-family: "Montserrat", sans-serif;
+    /* background-color: blue; */
+  }
+  .slider-cntr h1 {
+    font-size: 2rem;
+    font-family: "Fasthand", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .slider-cntr h3 {
+    font-size: 1rem;
+    font-family: "Fasthand", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  /* Top bar */
+  .topbar-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.slider-cntr h1 {
+  color: rgb(135, 7, 94);
+}
+.slider-cntr h3 {
+  color: rgb(135, 7, 94);
+}
+
+.sur ul li a {
+  color: rgb(135, 7, 94);
+}
+
+.container a {
+  color: rgb(135, 7, 94);
+}
+.container-fluid a {
+  color: white;
+  height: 10vh;
+}
+.WHY h2 {
+  color: rgb(135, 7, 94);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.st li a i {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fw-light {
+  font-family: "Montserrat", sans-serif;
+}
+
+.blog h1 {
+  color: #36061e;
+}
+.slider h2 {
+  color: rgb(164, 42, 103);
+}
+.cu i {
+  font-family: "Montserrat", sans-serif;
+}
+.detrans a {
+  color: white;
+  text-decoration: none;
+}
+.social a {
+  color: white;
+  text-decoration: none;
+}
+.sur ul li a h6 {
+  font-weight: 300;
+}
+.dropdown-toggle::after {
+  display: none;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+h1 {
+  font-family: "Fasthand", cursive;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Fasthand", cursive;
+  font-weight: 600;
+}
+h3 {
+  font-family: "Fasthand", cursive;
+  font-weight: 500;
+}
+h4 {
+  font-family: "Fasthand", cursive;
+  font-weight: 400;
+}
+h5 {
+  font-family: "Fasthand", cursive;
+  font-weight: 300;
+}
+h6 {
+  font-family: "Fasthand", cursive;
+  font-weight: 200;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.nav-row {
+  position: relative;
+  width: 100%;
+}
+.nav-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  width: min-content;
+  height: 35px;
+}
+.about h1{
+color: #a51e62;
+}
